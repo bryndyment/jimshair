@@ -1,0 +1,76 @@
+<HTML>
+	<HEAD>
+		<META HTTP-EQUIV="content-type" CONTENT="text/html;charset=iso-8859-1">
+		<META NAME="generator" CONTENT="GoLive CyberStudio">
+		<TITLE>Phenology</TITLE>
+		<SCRIPT LANGUAGE="JavaScript"><!-- Hide from old browsers
+bName = navigator.appName;
+bVer = parseInt(navigator.appVersion);
+if ((bName == "Netscape" && bVer >=3) ||
+		 (bName == "Microsoft Internet Explorer" && bVer >= 4)) br = "n3";
+else br = "n2";
+
+//Create image objects, preload all active and inactive images.
+if (br== "n3") {
+	img1on = new Image ( );
+	img1on.src = "faster2.gif";
+	img1off = new Image ( );
+	img1off.src = "phrenology.gif";
+}
+{
+	img2on = new Image ( );
+	img2on.src = "faster2.gif";
+	img2off = new Image ( );
+	img2off.src = "blue.jpeg";
+}
+
+
+function imgAct(imgName) {
+	if (br== "n3") {
+		document[imgName].src = eval(imgName + "on.src");
+	}
+}
+function imgInact(imgName) {
+	if (br== "n3") {
+		document[imgName].src = eval(imgName + "off.src");
+	}
+}
+// Stop hiding from old browsers -->
+</SCRIPT>
+	
+	</HEAD>
+	<BODY BGCOLOR="#FAFFFF">
+		<CENTER>
+			<P><TABLE COOL WIDTH="493" HEIGHT="447" BORDER="0" CELLPADDING="0" CELLSPACING="0" GRIDX="16" SHOWGRIDX USEGRIDX GRIDY="16" SHOWGRIDY USEGRIDY>
+
+				<TR HEIGHT="1" CNTRLROW>
+					<TD WIDTH="1" HEIGHT="1"></TD>
+					<TD WIDTH="48" HEIGHT="1"><SPACER TYPE="block" WIDTH="48" HEIGHT="1"></TD>
+					<TD WIDTH="64" HEIGHT="1"><SPACER TYPE="block" WIDTH="64" HEIGHT="1"></TD>
+					<TD WIDTH="378" HEIGHT="1"><SPACER TYPE="block" WIDTH="378" HEIGHT="1"></TD>
+				</TR>
+
+				<TR HEIGHT="16">
+					<TD WIDTH="1" HEIGHT="16"><SPACER TYPE="block" WIDTH="1" HEIGHT="16"></TD>
+					<TD WIDTH="48" HEIGHT="16"></TD>
+					<TD WIDTH="64" HEIGHT="16"></TD>
+					<TD WIDTH="378" HEIGHT="16"></TD>
+				</TR>
+
+				<TR HEIGHT="128">
+					<TD WIDTH="1" HEIGHT="128"><SPACER TYPE="block" WIDTH="1" HEIGHT="128"></TD>
+					<TD WIDTH="48" HEIGHT="128"></TD>
+					<TD WIDTH="64" HEIGHT="128"></TD>
+					<TD WIDTH="378" HEIGHT="428" COLSPAN="1" ROWSPAN="2" VALIGN="top" ALIGN="left" XPOS="112"><IMG SRC="phrenology.gif" WIDTH="368" HEIGHT="336" NAME="img1"></TD>
+				</TR>
+
+				<TR HEIGHT="300">
+					<TD WIDTH="1" HEIGHT="300"><SPACER TYPE="block" WIDTH="1" HEIGHT="300"></TD>
+					<TD WIDTH="48" HEIGHT="300"></TD>
+					<TD WIDTH="64" HEIGHT="300" COLSPAN="1" ROWSPAN="1" VALIGN="top" ALIGN="left" XPOS="48"><A HREF="phrenology.html" ONMOUSEOVER="imgAct('img1')" ONMOUSEOUT="imgInact('img1')"><IMG NAME="img2" WIDTH="25" BORDER="0" SRC="blue.jpeg"></A></TD>
+				</TR>
+			</TABLE>
+			</P>
+		</CENTER>
+	</BODY>
+</HTML>

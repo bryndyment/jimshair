@@ -1,0 +1,30 @@
+body, p, tr, th, td, ol, ul, li, h1 {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 10pt; font-weight: normal; color: #000000;
+}
+
+body { 
+  background-color: #FFFFFF; 
+}
+
+a { color: #E20A16; }
+
+h1 { font-size: 14pt; font-weight: bold; }
+
+.content {
+  width: 550px;
+  margin: 40px auto 0 auto;
+}
+
+.content td {
+  background-color: #EEEEEE;
+}
+
+.domain {
+  font-weight: bold;
+}
+
+hr {
+  margin: 0;
+  padding: 0;
+}
